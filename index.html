@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="shortcut icon" href="Images/couleur.png" type="image/x-icon" />
+    <title>Color Flipper</title>
+  </head>
+  <body>
+    <nav class="myNavBar navbar navbar-light bg-light">
+      <div class="container">
+        <img
+          src="Images/couleur.png"
+          alt="aint palette"
+          width="50"
+          height="50"
+          class="d-inline-block align-text-top me-0"
+        />
+        <h3 class="text-info">Color Flipper</h3>
+        <ul class="list">
+          <li><a id="link1" href="#">Text</a></li>
+          <li><a id="link2" href="#">RGBA Format</a></li>
+          <li><a id="link3" href="#">Hex</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="text-center">
+      <div class="Content">
+        <h4>Background Color :&nbsp</h4>
+        <h4 id="modifiedText">white</h4>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-outline-dark myButton">
+      Click me
+    </button>
+
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/App.js"></script>
+  </body>
+</html>

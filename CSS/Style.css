@@ -1,0 +1,109 @@
+body {
+  background-color: white;
+}
+
+.navbar {
+  box-shadow: 0 1.5px 26px 1px #545454;
+}
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+}
+
+.list li {
+  margin-left: 60px;
+}
+
+.list li a {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
+.Content {
+  background-color: #232020;
+  color: #ffffff;
+  margin: 200px auto 40px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.Content h4 {
+  display: inline;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.Content #modifiedText {
+  color: #00d5ff;
+}
+
+.myButton {
+  font-size: 26px;
+  font-weight: 600;
+  display: block;
+
+  margin: 0 auto;
+  width: 180px;
+  border: 3px solid #000000;
+}
+
+#link1 {
+  color: #00d5ff;
+  border-bottom: 3px solid #00d5ff;
+}
+
+#link1,
+#link2,
+#link3 {
+  transition: all 0.4s ease-out;
+}
+
+#link1:hover,
+#link2:hover,
+#link3:hover {
+  color: #00d5ff;
+}
+
+@media (max-width: 767px) {
+  .myNavBar {
+    width: 300%;
+    left: 50%;
+    font-size: 30px;
+  }
+  .Content {
+    width: 400%;
+    background-color: #232020;
+    color: #ffffff;
+    margin: 500px auto 40px;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 18px;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 768px) AND (max-width: 100px) {
+  .myNavBar {
+    width: 300%;
+    left: 50%;
+    font-size: 30px;
+  }
+  .Content {
+    width: 380%;
+    background-color: #232020;
+    color: #ffffff;
+    margin: 500px auto 40px;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 18px;
+    border-radius: 10px;
+  }
+  .myButton {
+    margin: 0 180%;
+  }
+}
