@@ -4,5 +4,5 @@
 - This dynamic color-flipper website boasts a sleek interface and intuitive controls for effortless color exploration. Powered by HTML, CSS, Bootstrap, and Javascript, it offers a seamless user experience. Unleash your creativity with confidence, knowing your design vision is in capable hands.
   
   <br/>
-<a href="https://abou-bakr-benz.github.io/color-flipper/" >![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://abou-bakr-benz.github.io/color-flipper/" target="_blank">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
